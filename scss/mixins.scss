@@ -1,0 +1,51 @@
+@mixin font-light {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+@mixin font-regular {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+}
+
+@mixin font-bold {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin button-corfo {
+    height: 108px;
+    background-color: $rojo-corfo;
+    width: 100%;
+    color: $blanco;
+    border: none;
+    font-size: 3.4rem;
+    padding-left: 1rem;
+    ;
+    @include font-light;
+}
+
+@mixin circle-button ($color-base, $color-borde) {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: ($color-base);
+    border: 10px solid ($color-borde);
+    color: $text-button;
+    font-size: $font-button;
+    &:focus {
+        background-color: ($color-borde);
+        outline: none;
+    }
+}
+
+@mixin menu-button ($color-base, $color-borde) {
+    width: 100%;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 9px;
+    background-color: ($color-base);
+    border: 10px solid ($color-borde);
+    color: $text-button;
+    font-size: $font-button;
+}

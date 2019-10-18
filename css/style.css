@@ -86,7 +86,8 @@ html {
   min-height: 100%;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center; }
+  -ms-flex-align: center;
+  touch-action: none; }
 
 body {
   margin: 0;

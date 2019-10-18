@@ -22,6 +22,7 @@ html {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
+    touch-action: none;
 }
 
 body {

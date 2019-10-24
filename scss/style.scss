@@ -49,22 +49,27 @@ body {
     &-inicio {
         background-image: url("../img/background/inicio.jpg");
         background-repeat: no-repeat;
+        position: absolute;
     }
     &-yo-soy {
         background-image: url("../img/background/yo_soy.jpg");
         background-repeat: no-repeat;
+        position: absolute;
     }
     &-yo-quiero {
         background-image: url("../img/background/yo_quiero.jpg");
         background-repeat: no-repeat;
+        position: absolute;
     }
     &-apoyo {
         background-image: url("../img/background/apoyo.jpg");
         background-repeat: no-repeat;
+        position: absolute;
     }
     &-programas {
         background-image: url("../img/background/programas.jpg");
         background-repeat: no-repeat;
+        position: absolute;
     }
 }
 

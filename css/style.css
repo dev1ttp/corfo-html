@@ -107,19 +107,24 @@ body {
 
 .back-inicio {
   background-image: url("../img/background/inicio.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute; }
 .back-yo-soy {
   background-image: url("../img/background/yo_soy.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute; }
 .back-yo-quiero {
   background-image: url("../img/background/yo_quiero.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute; }
 .back-apoyo {
   background-image: url("../img/background/apoyo.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute; }
 .back-programas {
   background-image: url("../img/background/programas.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute; }
 
 .img-triangle {
   width: 20px; }
